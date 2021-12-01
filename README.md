@@ -1,2 +1,5 @@
 # Bike-sharing-demand-preiction
-Seoul Bike sharing demand prediction..
+The demand of rented bicycle is increasing day by day, so it is important for the bike sharing companies to meet the demand of the customer and make adequate number of bikes available at each instant to reduce the waiting time of customer.
+ Our first step is to prepare dataset for our machine learning models. After loading the dataset we performed Exploratory Data Analysis by comparing our target variable that is Rented_Bike_Count with other independent variables. This process helped us figuring out various aspects and relationships among the target and the independent variables. We will do certain steps like dropping unnecessary columns and do the one hot encoding for the required columns. 
+After data  handling we fit our Machine learning models like Linear regression, Ridge Regression, Decision Trees Regression ,Random forest Regression  to our data .And with the help of ML metrices like r2 score, RMSE, MSE  we decide that which machine learning model is the best fit for our dataset.
+After analyzing all our Machine learning performance on basis of machine learning metrices we conclude that Random Forest Regreesion Machine Learning algorithm is best suited for our dataset.
